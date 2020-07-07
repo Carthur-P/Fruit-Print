@@ -60,6 +60,7 @@ body {
     height: 100vh;
     z-index: 1;
     position: relative;
-    left: 55%;
-    top: 0px
+    left: 90%;
+    top: 0px;
+    transition: transform 1s linear;
 }
