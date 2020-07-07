@@ -6,6 +6,47 @@ body {
     padding: 0px;
     font-family: "Open Sans", sans-serif;
     color: white;
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    padding: 0px;
+    margin: 30px 0px;
+    width: 30%;
+    z-index: 5;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+}
+
+nav a {
+    padding: 10px 20px;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+
+nav a:hover{
+    color: white !important;
+    background-color: #fa88b1;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: black;
 }
 
 #home {
@@ -102,7 +143,7 @@ body {
     padding: 0px;
     position: relative;
     right: 5%;
-    bottom: 700px;
+    bottom: 750px;
 }
 
 .contactContent p {
@@ -165,7 +206,7 @@ body {
     background-color: #fa88b1;
 }
 
-.yellow{
+.yellow {
     margin: 30px 0px;
     padding: 10px 30px;
     background-color: #ffde59;
@@ -175,7 +216,7 @@ body {
     text-transform: uppercase;
 }
 
-.blackFont{
+.blackFont {
     color: black;
 }
 
@@ -184,7 +225,7 @@ body {
     text-align: center;
 }
 
-.noSpacing{
+.noSpacing {
     margin: 0px;
     padding: 0px;
 }
