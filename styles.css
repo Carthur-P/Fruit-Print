@@ -17,11 +17,18 @@ body {
 }
 
 #about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0px;
     padding: 0px;
     width: 100%;
     height: 100vh;
     background-color: #ffde59;
+    background-image: url(./images/aboutBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .homeContent {
@@ -30,10 +37,16 @@ body {
     bottom: 750px;
     z-index: 2;
     color: white;
-    text-transform: uppercase;
 }
 
-.header {
+.aboutContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.bigHeader {
     margin: 0px;
     padding: 0px;
     font-weight: bolder;
@@ -41,7 +54,14 @@ body {
     font-size: 150px;
 }
 
-.subheader {
+.smallHeader {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.subHeader {
     margin: 20px 30px;
     padding: 0px;
     font-size: 20px;
@@ -50,7 +70,7 @@ body {
 .underline {
     margin: 0px;
     padding: 0px;
-    width: 30%;
+    width: 500px;
     height: 70px;
 }
 
@@ -63,4 +83,19 @@ body {
     left: 90%;
     top: 0px;
     transition: transform 1s linear;
+}
+
+.pink {
+    margin: 30px;
+    padding: 10px 30px;
+    background-color: #fa88b1;
+}
+
+.capital {
+    text-transform: uppercase;
+}
+
+.fifty {
+    width: 50%;
+    text-align: center;
 }
