@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+#home{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fa88b1;
+}
+
+.header{
+    margin: 0px;
+    padding: 0px;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 100px;
+    color: white;
+    z-index: 2;
+    position: relative;
+    left: 100px;
+    bottom: 700px;
+}
+
+.backgroundFruit{
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    left: 55%;
+    top: 0px
+}
