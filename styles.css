@@ -63,6 +63,14 @@ nav a:visited {
     color: black;
 }
 
+footer{
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0px;
+    background-color: #ffde59;
+    text-align: center;
+}
+
 #home {
     margin: 0px;
     padding: 0px;
