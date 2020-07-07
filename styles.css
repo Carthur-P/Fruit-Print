@@ -5,6 +5,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 #home {
@@ -18,6 +19,7 @@ body {
 
 #about {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0px;
@@ -25,10 +27,23 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #ffde59;
+    overflow: hidden;
     background-image: url(./images/aboutBackground.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
 
+#showPrint {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fa88b1;
+    overflow: hidden;
 }
 
 .homeContent {
@@ -36,14 +51,25 @@ body {
     left: 100px;
     bottom: 750px;
     z-index: 2;
-    color: white;
 }
 
-.aboutContent {
+.printContainer {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.printCard {
+    width: 300px;
+    text-align: center;
+}
+
+.printContainer img {
+    width: 250px;
+    height: 250px;
+    background-color: white;
 }
 
 .bigHeader {
