@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,800;1,400;1,800&display=swap");
 
 html,
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: white;
 }
 
@@ -46,7 +46,7 @@ body {
     overflow: hidden;
 }
 
-#customPrint{
+#customPrint {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -56,6 +56,15 @@ body {
     width: 100%;
     height: 100vh;
     background-color: #ffde59;
+    overflow: hidden;
+}
+
+#contact {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #fa88b1;
     overflow: hidden;
 }
 
@@ -83,6 +92,21 @@ body {
     width: 250px;
     height: 250px;
     background-color: white;
+}
+
+.contactContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    right: 5%;
+    bottom: 700px;
+}
+
+.contactContent p {
+    margin-bottom: 30px;
 }
 
 .bigHeader {
@@ -113,7 +137,7 @@ body {
     height: 70px;
 }
 
-.backgroundFruit {
+.rightBigFruit {
     margin: 0px;
     padding: 0px;
     height: 100vh;
@@ -124,17 +148,43 @@ body {
     transition: transform 1s linear;
 }
 
+.leftBigFruit {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+    right: 10%;
+    top: 0px;
+    transition: transform 1s linear;
+}
+
 .pink {
-    margin: 30px;
+    margin: 30px 0px;
     padding: 10px 30px;
     background-color: #fa88b1;
+}
+
+.yellow{
+    margin: 30px 0px;
+    padding: 10px 30px;
+    background-color: #ffde59;
 }
 
 .capital {
     text-transform: uppercase;
 }
 
+.blackFont{
+    color: black;
+}
+
 .fifty {
     width: 50%;
     text-align: center;
+}
+
+.noSpacing{
+    margin: 0px;
+    padding: 0px;
 }
