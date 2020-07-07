@@ -46,10 +46,23 @@ body {
     overflow: hidden;
 }
 
+#customPrint{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffde59;
+    overflow: hidden;
+}
+
 .homeContent {
     position: relative;
     left: 100px;
-    bottom: 750px;
+    bottom: 700px;
     z-index: 2;
 }
 
