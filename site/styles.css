@@ -147,12 +147,12 @@ footer {
 .printCard {
     width: 300px;
     text-align: center;
+    margin: 0px 20px;
 }
 
-.printContainer img {
-    width: 250px;
-    height: 250px;
-    background-color: white;
+.printCard img {
+    width: 300px;
+    height: 300px;
 }
 
 .contactContent {
