@@ -7,7 +7,7 @@ body {
     font-family: "Open Sans", sans-serif;
     color: white;
     scroll-behavior: smooth;
-    overflow: overlay;
+    overflow: overlay
 }
 
 html::-webkit-scrollbar {
@@ -72,18 +72,21 @@ footer {
 }
 
 #home {
+    display: flex;
+    position: relative;
+    align-items: center;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #fa88b1;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 #about {
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #ffde59;
     overflow: hidden;
@@ -95,7 +98,7 @@ footer {
 #showPrint {
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #fa88b1;
     overflow: hidden;
@@ -105,25 +108,27 @@ footer {
     align-items: center;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #ffde59;
     overflow: hidden;
 }
 
 #contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
     margin: 0px;
     padding: 0px;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-color: #fa88b1;
     overflow: hidden;
 }
 
 .homeContent {
-    position: relative;
-    left: 100px;
-    bottom: 700px;
+    margin-left: 100px;
     z-index: 2;
 }
 
@@ -147,14 +152,9 @@ footer {
 }
 
 .contactContent {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
     margin: 0px;
     padding: 0px;
-    position: relative;
-    right: 5%;
-    bottom: 750px;
+    margin-right: 100px;
 }
 
 .contactContent p {
@@ -194,10 +194,9 @@ footer {
     padding: 0px;
     height: 100vh;
     z-index: 1;
-    position: relative;
+    position: absolute;
     left: 90%;
-    top: 0px;
-    transition: all 1s linear;
+    transition: left 1s linear;
 }
 
 .leftBigFruit {
@@ -205,10 +204,9 @@ footer {
     padding: 0px;
     height: 100vh;
     z-index: 1;
-    position: relative;
-    right: 40%;
-    top: 0px;
-    transition: all 1s linear;
+    position: absolute;
+    right: 90%;
+    transition: right 1s linear;
 }
 
 .pink {
@@ -249,6 +247,12 @@ footer {
     align-items: center;
 }
 
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .noSpacing {
     margin: 0px;
     padding: 0px;
@@ -265,8 +269,8 @@ footer {
     opacity: 1;
 }
 
-.slideRight{
-    right: 10%
+.slideRight {
+    right: 60%
 }
 
 .slideLeft {
