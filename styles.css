@@ -161,10 +161,6 @@ footer {
     margin-right: 100px;
 }
 
-.contactContent p {
-    margin-bottom: 30px;
-}
-
 .bigHeader {
     margin: 0px;
     padding: 0px;
@@ -225,12 +221,22 @@ footer {
     background-color: #ffde59;
 }
 
+.white {
+    background-color: white;
+    padding: 10px 30px !important;
+    margin: 20px 0px;
+}
+
 .capital {
     text-transform: uppercase;
 }
 
 .blackFont {
     color: black;
+}
+
+.pinkFont {
+    color: #fa88b1;
 }
 
 .fifty {
@@ -255,6 +261,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: center;
 }
 
 .noSpacing {
