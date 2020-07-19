@@ -209,8 +209,27 @@ footer {
     transition: right 1s linear;
 }
 
-.customiseFruit{
+.customiseFruit {
     width: 900px;
+}
+
+.contactButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+    border: 2px solid #ffde59;
+    background-color: white;
+    z-index: 5;
+}
+
+.contactButton:hover {
+    background-color: #ffde59;
 }
 
 .pink {
