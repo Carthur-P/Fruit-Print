@@ -24,4 +24,11 @@ $(document).ready(() => {
     });
     //triggering onscroll onload aswell
     $win.trigger("scroll");
+
+    //contact form component
+    const contactButton = $(".contactButton");
+    const contactForm = $(".contactForm");
+    contactButton.click(() => {
+        contactForm.toggle("slow");
+    });
 });
