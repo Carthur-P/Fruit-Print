@@ -274,6 +274,7 @@ footer {
     background-color: white;
     padding: 15px;
     border: 2px solid #ffde59;
+    outline: none;
 }
 
 .contactForm button:hover {
